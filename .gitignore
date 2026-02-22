@@ -1,0 +1,43 @@
+# ═══ Backend (Java / Spring Boot / Maven) ═══
+backend/target/
+backend/.mvn/
+backend/*.iml
+backend/.idea/
+backend/*.class
+backend/*.jar
+backend/*.war
+
+# jOOQ generated code (regenerate from schema)
+backend/src/main/java/com/lms/jooq/generated/
+
+# ═══ Frontend (React / Vite / Node) ═══
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ═══ Environment / Secrets ═══
+.env
+.env.local
+.env.production
+*.env
+
+# ═══ IDE ═══
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ═══ Logs ═══
+*.log
+logs/
+
+# ═══ OS ═══
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
